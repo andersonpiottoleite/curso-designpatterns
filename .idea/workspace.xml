@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="74678ddd-0370-4e8c-8fab-5535a6c9e9ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CursoDesignPatterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/Singleton/problema/Agenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/Singleton/problema/TesteAgenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/adapter/problema/ClientJarOperacoesContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/adapter/problema/JarOperacoesContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/adapter/problema/TesteOperacoesContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/builder/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/builder/problema/TestePessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/builder/solucao/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/builder/solucao/TesteAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/chainofresponsibility/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/chainofresponsibility/Marca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/chainofresponsibility/problema/TesteVendaCarro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/chainofresponsibility/problema/VendaCarroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/factorymethods/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/factorymethods/ProdutoDigital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/factorymethods/ProdutoFisico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/factorymethods/TipoProdutoEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/factorymethods/problema/TesteProduto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/prototype/Botao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/prototype/TipoBordaEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/prototype/problema/BotaoAzul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/prototype/problema/BotaoVermelho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/proxy/PessoaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/proxy/PessoaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/proxy/problema/PessoaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/strategy/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/strategy/TipoContratacaoEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/strategy/problema/ReajusteAnualSalario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/strategy/problema/TesteAjusteSalarioSemStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/strategy/solucao/TesteAjusteSalarioComStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/templatemethod/VeiculoParaReparo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/templatemethod/problema/ReparVeiculoComumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/templatemethod/problema/ReparVeiculoDeLuxoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/templatemethod/problema/TesteReparVeiculos.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FPmrfwe6pZdYKqjwyO5rxQGJCF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Administrador/IdeaProjects/biblioteca/CursoDesignPatterns/src/br/com/ada/designpattern",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrador\IdeaProjects\biblioteca\CursoDesignPatterns\src\br\com\ada\designpattern" />
+      <recent name="C:\Users\Administrador\IdeaProjects\biblioteca\CursoDesignPatterns\src\br\com\ada\designpattern\adapter" />
+      <recent name="C:\Users\Administrador\IdeaProjects\biblioteca\CursoDesignPatterns\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.ada.designpattern.chainofresponsibility.solucao" />
+      <recent name="br.com.ada.designpattern.factorymethods.solucao" />
+      <recent name="br.com.ada.designpattern.templatemethod" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.br.com.ada.designpattern.templatemethod.TesteReparoVeiculos">
+    <configuration name="TesteAjusteSalarioSemStrategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.designpattern.strategy.problema.TesteAjusteSalarioSemStrategy" />
+      <module name="CursoDesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ada.designpattern.strategy.solucao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteReparoVeiculos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.designpattern.templatemethod.TesteReparoVeiculos" />
+      <module name="CursoDesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ada.designpattern.templatemethod.problema.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteVendaCarro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.designpattern.chainofresponsibility.problema.TesteVendaCarro" />
+      <module name="CursoDesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ada.designpattern.chainofresponsibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="br.com.ada.designpattern.proxy.problema.PessoaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.designpattern.proxy.problema.PessoaTest" />
+      <module name="CursoDesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ada.designpattern.proxy.problema.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="br.com.ada.designpattern.templatemethod.problema.TesteReparVeiculos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.designpattern.templatemethod.problema.TesteReparVeiculos" />
+      <module name="CursoDesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ada.designpattern.templatemethod.problema.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.br.com.ada.designpattern.templatemethod.TesteReparoVeiculos" />
+        <item itemvalue="Application.br.com.ada.designpattern.templatemethod.problema.TesteReparVeiculos" />
+        <item itemvalue="Application.br.com.ada.designpattern.chainofresponsibility.problema.TesteVendaCarro" />
+        <item itemvalue="Application.br.com.ada.designpattern.strategy.TesteAjusteSalarioSemStrategy" />
+        <item itemvalue="Application.br.com.ada.designpattern.proxy.problema.PessoaTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74678ddd-0370-4e8c-8fab-5535a6c9e9ac" name="Changes" comment="" />
+      <created>1664402296870</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664402296870</updated>
+      <workItem from="1664402299679" duration="147000" />
+      <workItem from="1664402505517" duration="4413000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
