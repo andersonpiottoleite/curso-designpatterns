@@ -4,67 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74678ddd-0370-4e8c-8fab-5535a6c9e9ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/Singleton/solucao/AgendaSingletonEAGER.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/Singleton/solucao/AgendaSingletonEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/Singleton/solucao/AgendaSingletonLAZY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/Singleton/solucao/TesteAgendaComSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/adapter/solucao/ClientJarOperacoesContaCorrenteAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/adapter/solucao/JarOperacoesContaCorrenteAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/adapter/solucao/TesteOperacoesContaCorrenteAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/builder/solucao/PessoaBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/builder/solucao/TestePessoaComBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/chainofresponsibility/solucao/DescontoCarro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/chainofresponsibility/solucao/DescontoCarroFIAT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/chainofresponsibility/solucao/DescontoCarroFORD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/chainofresponsibility/solucao/DescontoCarroValorMaiorQueCemMil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/chainofresponsibility/solucao/SemDireitoADesconto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/chainofresponsibility/solucao/TesteVendaCarroComChainOfResponsibility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/chainofresponsibility/solucao/VendaCarroServiceComChainOfResponsibility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/factorymethods/solucao/ProdutoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/factorymethods/solucao/TesteProdutoComFactoryMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/prototype/problema/BotaoAmarelo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/prototype/solucao/BotaoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/prototype/solucao/BotaoRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/prototype/solucao/TesteBotaoPrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/proxy/solucao/NovoPessoaRepositoryProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/proxy/solucao/PessoaRepositoryProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/proxy/solucao/ProxyPessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/proxy/solucao/TestePessoaComProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/strategy/solucao/CalculadorReajusteAnualSalario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/strategy/solucao/CalculadorReajusteAnualSalarioCLT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/strategy/solucao/CalculadorReajusteAnualSalarioCooperativa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/strategy/solucao/CalculadorReajusteAnualSalarioEstagio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/strategy/solucao/CalculadorReajusteAnualSalarioPJ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/strategy/solucao/ReajusteAnualSalarioComStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/templatemethod/solucao/ReparoVeiculoComumServiceComTemplateMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/templatemethod/solucao/ReparoVeiculoLuxoServiceComTemplateMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/templatemethod/solucao/ReparoVeiculoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/templatemethod/solucao/TesteReparVeiculosComTemplateMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CursoDesignPatterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CursoDesignPatterns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/Singleton/problema/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/Singleton/problema/Agenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/Singleton/problema/TesteAgenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/Singleton/problema/TesteAgenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/adapter/problema/ClientJarOperacoesContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/adapter/problema/ClientJarOperacoesContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/adapter/problema/JarOperacoesContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/adapter/problema/JarOperacoesContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/adapter/problema/TesteOperacoesContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/adapter/problema/TesteOperacoesContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/builder/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/builder/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/builder/problema/TestePessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/builder/problema/TestePessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/builder/solucao/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/builder/solucao/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/builder/solucao/TesteAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/builder/solucao/TesteAnimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/chainofresponsibility/problema/TesteVendaCarro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/chainofresponsibility/problema/TesteVendaCarro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/factorymethods/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/factorymethods/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/factorymethods/problema/TesteProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/factorymethods/problema/TesteProduto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/proxy/PessoaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/proxy/PessoaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/proxy/PessoaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/proxy/PessoaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/proxy/problema/PessoaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/proxy/problema/PessoaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/strategy/TipoContratacaoEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/strategy/TipoContratacaoEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/strategy/problema/TesteAjusteSalarioSemStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/strategy/problema/TesteAjusteSalarioSemStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/strategy/solucao/TesteAjusteSalarioComStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/strategy/solucao/TesteAjusteSalarioComStrategy.java" afterDir="false" />
+    <list default="true" id="74678ddd-0370-4e8c-8fab-5535a6c9e9ac" name="Changes" comment="solucoes design patterns">
       <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/templatemethod/problema/ReparVeiculoComumService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/templatemethod/problema/ReparVeiculoComumService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/templatemethod/problema/ReparVeiculoDeLuxoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/templatemethod/problema/ReparVeiculoDeLuxoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/designpattern/templatemethod/problema/TesteReparVeiculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/designpattern/templatemethod/problema/TesteReparVeiculos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,6 +159,14 @@
       <workItem from="1664402299679" duration="147000" />
       <workItem from="1664402505517" duration="4413000" />
     </task>
+    <task id="LOCAL-00001" summary="solucoes design patterns">
+      <created>1664480682890</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664480682890</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +182,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="solucao design patterns" />
+    <MESSAGE value="solucoes design patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="solucoes design patterns" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
