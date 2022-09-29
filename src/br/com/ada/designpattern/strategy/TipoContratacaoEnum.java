@@ -4,5 +4,7 @@ public enum TipoContratacaoEnum {
 
     CLT,
     PJ,
-    ESTAGIO
+    ESTAGIO,
+
+    COOPERATIVA;
 }

@@ -1,22 +1,26 @@
 package br.com.ada.designpattern.proxy;
 
 import br.com.ada.designpattern.builder.Pessoa;
+import br.com.ada.designpattern.proxy.solucao.PessoaRepositoryProxy;
+import br.com.ada.designpattern.proxy.solucao.ProxyPessoa;
 
 public class PessoaService {
 
-    private PessoaRepository pessoaRepository;
+    private ProxyPessoa proxyPessoa;
 
-    public PessoaService(PessoaRepository pessoaRepository) {
-        this.pessoaRepository = pessoaRepository;
+    public PessoaService(ProxyPessoa proxyPessoa) {
+
+        this.proxyPessoa = proxyPessoa;
     }
 
     public void save(Pessoa pessoa){
-        pessoaRepository.save(pessoa);
+
+        proxyPessoa.save(pessoa);
     }
 
 
     public Pessoa findById(Long id){
-        return pessoaRepository.findById(id);
+        return proxyPessoa.findById(id);
     }
 
 

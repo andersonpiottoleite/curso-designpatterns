@@ -7,6 +7,7 @@ public class ClientJarOperacoesContaCorrente {
     private JarOperacoesContaCorrente jocc;
 
     public ClientJarOperacoesContaCorrente(JarOperacoesContaCorrente jocc){
+
         this.jocc = jocc;
     }
 
@@ -15,10 +16,12 @@ public class ClientJarOperacoesContaCorrente {
     }
 
     public void saca(BigDecimal valorPretendido){
+
         jocc.saca(valorPretendido);
     }
 
     public void deposita(BigDecimal valor){
+
         jocc.deposita(valor);
     }
 }

@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 public class TesteAjusteSalarioComStrategy {
 
     public static void main(String[] args) {
-        ReajusteAnualSalario reajusteAnualSalario = new ReajusteAnualSalario();
+        ReajusteAnualSalarioComStrategy reajusteAnualSalario = new ReajusteAnualSalarioComStrategy();
 
         Funcionario funcionarioCLT = new Funcionario();
         funcionarioCLT.setNome("Victor");
@@ -24,12 +24,22 @@ public class TesteAjusteSalarioComStrategy {
         Funcionario funcionarioEstagio = new Funcionario();
         funcionarioEstagio.setNome("Osvaldo");
         funcionarioEstagio.setTipoContratacao(TipoContratacaoEnum.ESTAGIO);
-        funcionarioEstagio.setSalario(new BigDecimal(2000));
+        funcionarioEstagio.setSalario(new BigDecimal(15000));
+
+        Funcionario funcionarioCooperativa= new Funcionario();
+        funcionarioCooperativa.setNome("João");
+        funcionarioCooperativa.setTipoContratacao(TipoContratacaoEnum.COOPERATIVA);
+        funcionarioCooperativa.setSalario(new BigDecimal(8000));
 
         // calcular nossos reajustes aqui
+        reajusteAnualSalario.calculaRejusteAnual(funcionarioCLT, new CalculadorReajusteAnualSalarioCLT());
+        reajusteAnualSalario.calculaRejusteAnual(funcionarioPJ, new CalculadorReajusteAnualSalarioPJ());
+        reajusteAnualSalario.calculaRejusteAnual(funcionarioEstagio, new CalculadorReajusteAnualSalarioEstagio());
+        reajusteAnualSalario.calculaRejusteAnual(funcionarioCooperativa, new CalculadorReajusteAnualSalarioCooperativa());
 
         System.out.println(funcionarioCLT);
         System.out.println(funcionarioPJ);
         System.out.println(funcionarioEstagio);
+        System.out.println(funcionarioCooperativa);
     }
 }

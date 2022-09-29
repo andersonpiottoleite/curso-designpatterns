@@ -17,11 +17,12 @@ public class Agenda {
         diasDisponiveis.put("Sabado", Boolean.TRUE);
     }
 
-    public Map<String, Boolean> getDiasDisponiveis(){
+    public Map<String, Boolean> getDias(){
         return diasDisponiveis;
     }
 
     public void ocupa(String dia){
+
         diasDisponiveis.replace(dia, Boolean.FALSE);
     }
 }

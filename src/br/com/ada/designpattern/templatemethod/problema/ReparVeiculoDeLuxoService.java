@@ -23,6 +23,7 @@ public class ReparVeiculoDeLuxoService{
     }
 
     private boolean veiculoParaReparo() {
+
         return veiculoParaReparo.getPorcentagemDano() <= 50;
     }
 

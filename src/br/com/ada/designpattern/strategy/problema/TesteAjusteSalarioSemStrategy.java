@@ -9,6 +9,7 @@ public class TesteAjusteSalarioSemStrategy {
 
     public static void main(String[] args) {
         ReajusteAnualSalario reajusteAnualSalario = new ReajusteAnualSalario();
+
         Funcionario funcionarioCLT = new Funcionario();
         funcionarioCLT.setNome("Victor");
         funcionarioCLT.setTipoContratacao(TipoContratacaoEnum.CLT);
@@ -22,9 +23,12 @@ public class TesteAjusteSalarioSemStrategy {
         Funcionario funcionarioEstagio = new Funcionario();
         funcionarioEstagio.setNome("Osvaldo");
         funcionarioEstagio.setTipoContratacao(TipoContratacaoEnum.ESTAGIO);
-        funcionarioEstagio.setSalario(new BigDecimal(2000));
+        funcionarioEstagio.setSalario(new BigDecimal(15000));
 
         // calcular nossos reajustes aqui
+        reajusteAnualSalario.calculaRejusteAnual(funcionarioCLT);
+        reajusteAnualSalario.calculaRejusteAnual(funcionarioPJ);
+        reajusteAnualSalario.calculaRejusteAnual(funcionarioEstagio);
 
         System.out.println(funcionarioCLT);
         System.out.println(funcionarioPJ);

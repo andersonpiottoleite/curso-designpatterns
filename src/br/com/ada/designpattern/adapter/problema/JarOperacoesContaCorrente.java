@@ -10,10 +10,12 @@ public class JarOperacoesContaCorrente {
     }
 
     public void saca(BigDecimal valorPretendido){
+
         System.out.println("Sacando...");
     }
 
     public void deposita(BigDecimal valor){
+
         System.out.println("Depositando...");
     }
 }

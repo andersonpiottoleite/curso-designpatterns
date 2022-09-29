@@ -23,6 +23,7 @@ public class ReparVeiculoComumService{
     }
 
     private boolean veiculoParaReparo() {
+
         return veiculoParaReparo.getPorcentagemDano() <= 70;
     }
 

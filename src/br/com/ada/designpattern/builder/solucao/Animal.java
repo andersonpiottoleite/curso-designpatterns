@@ -6,8 +6,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class
-Animal {
+public class Animal {
 
     private String nome;
     private String dono;
